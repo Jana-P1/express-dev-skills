@@ -1,5 +1,6 @@
 import createError from 'http-errors'
 import express from 'express'
+import * as skillsDb from './data/skills-db.js'
 import path from 'path'
 import { fileURLToPath } from 'url'
 import logger from 'morgan'
