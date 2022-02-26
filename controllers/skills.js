@@ -13,7 +13,7 @@ function show(req, res) {
   skillsDb.findById(req.params.id, function(error, skill) {
     res.render("skills/show", {
       skill: skill,
-      error: error
+      error: error,
     })
   })
 }
