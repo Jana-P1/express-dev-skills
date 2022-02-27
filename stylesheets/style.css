@@ -1,0 +1,21 @@
+body {
+  padding: 50px;
+  font: 14px "Lucinda Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #8b6cf0;
+}
+
+.delete-form { 
+  display: inline-block;
+  margin: 10px;
+}
+
+.delete-form button {
+  color: red;
+}
+
+li {
+  list-style: none;
+}
